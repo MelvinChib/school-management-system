@@ -65,7 +65,7 @@ public interface TeacherMapper {
      * @param course the Course entity
      * @return the course ID, or null if course is null
      */
-    default Long mapCourseToId(com.melvin.School.Management.System.Model.Course course) {
+    default Long mapCourseToId(Course course) {
         return course != null ? course.getId() : null;
     }
 

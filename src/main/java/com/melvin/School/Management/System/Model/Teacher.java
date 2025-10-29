@@ -70,6 +70,7 @@ public class Teacher {
     private List<Course> courses = new ArrayList<>();
 
     public void setEmail(String email) {
+        this.email = email;
     }
 
     public Long getId() {
@@ -105,5 +106,6 @@ public class Teacher {
     }
 
     public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }

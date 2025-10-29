@@ -121,7 +121,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.melvin.Application</mainClass>
+					<mainClass>com.melvin.School.Management.System.SchoolManagementSystemApplication</mainClass>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
@@ -135,7 +135,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>3.1.0</version>
 				<configuration>
-					<mainClass>com.melvin.Application</mainClass>
+					<mainClass>com.melvin.School.Management.System.SchoolManagementSystemApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
